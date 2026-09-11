@@ -9,13 +9,17 @@ body{margin:0;background:#F4F6FA;color:#1B2432;line-height:1.55;font-size:16px;
 .hero{background:linear-gradient(135deg,#1F3A63 0%,#3769AF 100%);color:#fff;padding:54px 0 44px}
 .eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;opacity:.78;margin-bottom:14px}
 h1{margin:0;font-size:40px;line-height:1.12;font-weight:700;letter-spacing:-.01em;text-wrap:balance}
-.sub{margin:10px 0 0;font-size:19px;opacity:.9;font-weight:300;max-width:62ch}
+.sub{margin:10px 0 0;font-size:19px;opacity:.9;font-weight:300;max-width:64ch}
 .meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;
       border-top:1px solid rgba(255,255,255,.22);padding-top:20px;margin-top:26px}
 .meta div span{display:block;font-size:11px;letter-spacing:.13em;text-transform:uppercase;opacity:.7;margin-bottom:4px}
 .meta div strong{font-weight:600;font-size:14px}
 main{padding:44px 0 60px}
-.lede{font-size:17px;max-width:70ch;margin:0 0 32px}
+.lede{font-size:17px;max-width:72ch;margin:0 0 18px}
+.callout{background:#fff;border:1px solid #D8DEE8;border-left:4px solid #B5793F;border-radius:6px;
+         padding:18px 22px;margin:0 0 32px;max-width:78ch}
+.callout h3{margin:0 0 6px;font-size:16px;color:#8A5A1E}
+.callout p{margin:0;font-size:14.5px;color:#3C4A5F}
 .cards{display:grid;gap:18px}
 .card{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid #D8DEE8;
       border-left:4px solid #3769AF;border-radius:6px;padding:22px 26px;transition:box-shadow .15s,transform .15s}
@@ -40,42 +44,47 @@ footer{background:#1F3A63;color:rgba(255,255,255,.8);font-size:13px;padding:22px
 <header class="hero"><div class="wrap">
   <div class="eyebrow">Renewance, Inc. &middot; Internal. Leadership and HR distribution only.</div>
   <h1>Projects and Services Reorganization</h1>
-  <p class="sub">Three structural options, presented side by side. Each roadmap is a complete plan: structure, moves, decision rights, sequenced rollout and open decisions.</p>
+  <p class="sub">Three structural options, presented side by side, plus the phased plan that replaced them for 2026.</p>
   <div class="meta">
     <div><span>Prepared by</span><strong>Peter Biede, Senior Director, Projects and Services</strong></div>
     <div><span>Baseline</span><strong>Services Team Final Org Plan, April 13, 2026</strong></div>
-    <div><span>Current option</span><strong>Option C</strong></div>
+    <div><span>Current</span><strong>Option C, as revised September 11</strong></div>
   </div>
 </div></header>
 
 <main class="wrap">
-  <p class="lede">All three options separate the same three fused jobs: technical program leadership, people management, and resource management. They differ in who holds the planning seat and how OEM account support is organized. Option C is the current proposal; A and B are retained so the reasoning behind the change is visible.</p>
+  <p class="lede">All three options separate the same three fused jobs: technical program leadership, people management, and resource management. They differ in who holds the resource management seat and how account support is organized.</p>
+
+  <div class="callout">
+    <h3>What changed on September 10</h3>
+    <p>Leadership agreed to defer the formal reorganization to the 2027 planning cycle and to run foundation work for the remainder of 2026 instead: roles and responsibilities between project and service management, decision authority for associate managers, associate managers out of the field, invoicing support on the heaviest account, and execution discipline. Option C now carries that phasing. Options A and B are retained as the structural design history.</p>
+  </div>
 
   <div class="cards">
 
     <a class="card current" href="option-c/">
-      <div class="ctop"><h2>Option C &middot; Planning as a Function, One OEM Account Group</h2><span class="chip now">Current</span></div>
-      <p>Justin Yurchak takes the Planner and Scheduler seat in operations under Clint Dollins, who keeps final approval. Julia Newhall stays customer-facing on Sungrow inside one OEM Account Group that merges the CATL support model with the Sungrow account. No Senior Project Manager layer; project managers report to the Senior Director directly. Rollout is sequenced by dependency, starting September 15.</p>
+      <div class="ctop"><h2>Option C &middot; 2026 Foundations, 2027 Structure</h2><span class="chip now">Current</span></div>
+      <p>The phased plan. Five foundation workstreams run through December 2026, led by the services attrition number rather than by the org chart. The structure is retained as the 2027 destination: Justin Yurchak in a dedicated Resource Manager seat under Clint Dollins, one Account Management Group across the portfolio, and performance engineering as a staffed capability. No reporting line, title or compensation moves this year.</p>
       <div class="go">Open Option C &rarr;</div>
     </a>
 
     <a class="card" href="option-a/">
       <div class="ctop"><h2>Option A &middot; Structural Realignment of Decision Authority</h2><span class="chip old">Superseded</span></div>
-      <p>The original plan. Establishes the Director of Performance Engineering, consolidates people management under a Senior Services Manager, creates a dedicated Resource Manager seat, and pushes technician ownership to the associate managers. The resourcing seat and the accounts project seat are shown as interchangeable between two named people.</p>
-      <div class="status">Superseded by Option C. The resourcing seat is no longer presented as interchangeable, and the September 1 effective date has been rebased.</div>
+      <p>The original design. Establishes performance engineering as a named function, consolidates people management under a Senior Services Manager, creates a dedicated Resource Manager seat, and pushes technician ownership to the associate managers. The resourcing seat and the accounts project seat are shown as interchangeable between two named people.</p>
+      <div class="status">Superseded by Option C. The resourcing seat is no longer interchangeable, and the structural timing moved to 2027.</div>
       <div class="go">Open Option A &rarr;</div>
     </a>
 
     <a class="card" href="option-b/">
-      <div class="ctop"><h2>Option B &middot; Planner and Scheduler with Sungrow Order Intake</h2><span class="chip old">Superseded</span></div>
-      <p>A variant in which Julia Newhall takes the Planner and Scheduler role while retaining Sungrow order intake, with Justin Yurchak moving to project management on the transferred accounts. Intake is governed by a rule that sorts orders into a direct-schedule lane and a commercial lane.</p>
+      <div class="ctop"><h2>Option B &middot; Resource Manager with Sungrow Order Intake</h2><span class="chip old">Superseded</span></div>
+      <p>A variant in which Julia Newhall takes the Resource Manager role while retaining Sungrow order intake, with Justin Yurchak moving to project management on the transferred accounts. Intake is governed by a rule sorting orders into a direct-schedule lane and a commercial lane.</p>
       <div class="status">Superseded by Option C. The intake rule shown here was drafted, not adopted. Review of the order record established that every Sungrow job is bid through ServiceIQ with a cost model, so the direct-schedule lane it assumes does not exist on that account.</div>
       <div class="go">Open Option B &rarr;</div>
     </a>
 
   </div>
 
-  <p class="note">Each page is self-contained and works offline once loaded. Section navigation runs along the top of every option, and the rollout section is interactive.</p>
+  <p class="note">Each page is self-contained and works offline once loaded. Section navigation runs along the top of every option, and the phased plan is interactive. Option C carries a review log recording what changed after the August 30 COO review and the September 10 leadership review.</p>
 </main>
 
 <footer><div class="wrap">Renewance, Inc. &middot; Internal planning material. Not for external distribution.</div></footer>
